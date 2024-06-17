@@ -1,0 +1,761 @@
+/* CSS RESET */
+* {
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+/* Configurações gerais do site */
+body{ 
+    font-family: "Kantumruy", serif  
+}
+
+
+/* Envolver e agrupar os elementos do html */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* Cabeçalho da página com o alinhamento de divisões */
+#header-top {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#header-top .header-logo {
+    width: 170px;
+    height: 95px;
+  }
+
+/* Logo central da página RN */
+#header-top .header-logo img{
+    width: 120px;
+}
+
+/* Configurações da header */
+.header-top-icons{
+    padding: 10px;
+    font-size: 25px;
+    padding: 0 100px;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10rem;
+    border: none;
+    background: linear-gradient(90deg, #cac6c6 50%, #b5babb 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 50ms ease-out;
+   }
+.header-top-icons:hover{
+    color: rgb(0, 0, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.header-top-icons a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.header-top-icons a:hover {
+    color: desiredHoverColor; 
+}
+
+
+/* Alinhamento do banner de promoção no centro da sala */
+#header-banner {
+    width: 1005px;
+}
+
+/* Declara o tamanho do banner de promoção */
+#header-banner img {
+    width: 1000px;
+}
+.header-banner-newbalance{
+    width: 100%;
+    padding: 0;
+}
+
+
+.header-initial{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 10, 10);
+    font-size: 20px; 
+
+}
+/* Fonte do New Balance no centro do site */
+.new-balance{
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+/* Fonte da Nike no centro do site */
+.nike{
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+/* Dimensionamentos do corpo do html */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(223, 223, 223, 0.76);
+}
+
+/* Linha que traça a página na horizontal no ínicio */
+.header{
+    width: 100%;
+    padding: 0px;
+    color: rgb(12, 12, 12);
+}
+
+/* Linha que traça a página na horizontal no centro*/
+.header-center{
+    width: 100%;
+    padding: 0px;
+    color: rgb(12, 12, 12);
+}
+
+/* Linha que traça a página na horizontal no final*/
+.header-end{
+    width: 100%;
+    padding: 0px;
+    color: rgb(12, 12, 12);
+    margin-top: 110px;
+}
+
+/* Divisão do container */
+#main-content .main-products div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Dimensionamentos do product-card */
+.product-card {
+    padding: 50px;
+    height: auto;
+    width: auto;
+    margin-left: 110px;
+    background-color: rgb(247 247 247 / 23%);
+    padding-top: inherit;
+    border: 1px solid rgb(0 0 0);
+    box-shadow: 50px 13px 3px 3px rgba(20, 20, 20, 0.04);
+
+}
+/* Dimensionamento da imagem do product card */
+.product-card :hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #dbd7d7 50%, #d7dcdd 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 50ms ease-out;
+}
+
+
+.product-card img {
+    height: auto;
+    width: 100px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+.product-container img{
+    width: 300px;
+    height: auto;
+}
+
+.product-card-btn {
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    color: #0e0d0d;
+}
+.product-card-btn-2 {
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    color: #0e0d0d;
+}
+
+/* Dimensionamento do texto principal */
+.main-text {
+    font-size: 400px;
+    font-weight: 900;
+}
+
+.product-card-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product-card-reference {
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    margin-left: 88px;
+}
+
+.product-card-price {
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    color: #363232c4;
+
+}
+
+.product-card-installrent{
+    font-size: 18px;
+    padding-bottom: inherit;
+    font-weight: 200;
+    color: #595959c4;
+}
+
+/* Configurações do rodapé da página */
+.baseboard{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+/* Personalização das palavras do info help */
+.info-help{
+    font-size: 15px;
+}
+
+
+/* Confuguração para tirar a cor */
+.info-help h3 a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.info-help h3 a:hover {
+    text-decoration: underline; 
+}
+
+
+/* Dimensionamento dos icons da página */
+.icons-pagamento{
+    padding: 10px;
+    font-size: 25px;
+    padding: 0 44px;
+    color: black;
+    
+}
+
+.icons-pagamento :hover{
+    color: black;
+}
+
+
+.icons-redes-sociais{
+    margin-left: 17px;
+    font-size: 20px;
+    color: black;
+
+}
+
+/* Titulo do final da página */
+.title-pagamento{
+    font-size: 15px; 
+}
+
+.title-redes-sociais{
+    font-size: 15px;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    margin-left: 167px;
+    padding-top: 30px;
+}
+
+/* Configurações do visual das marcas */
+.marca-newbalance img{
+    width: 25%;
+    margin-left: 462px;
+    border: 1px solid rgb(0 0 0);
+    box-shadow: 30px 18px 3px 3px rgba(20, 20, 20, 0.04);
+}
+
+
+.marca-nike{
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(0 0 0);
+    box-shadow: 30px 18px 3px 3px rgba(20, 20, 20, 0.04);
+}
+
+.header-centro{
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+/* Página de produtos */
+
+.product-title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#produto .product-title h2 {
+    font-family: "inter";
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+}
+
+#produto .product-title h6 {
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px
+}
+
+#produto .product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 16px;
+    padding-bottom: 100px;
+}
+
+/* Produtos da coluna 1 */
+#produto .col-1{
+    width: 70%;
+}
+/* Produtos da coluna 2 */
+#produto .col-2{
+    width: 30%;
+    padding-top: 5px;
+}
+
+.col-2{
+    padding: 45px 10px;
+}
+
+/* Configurações e dimensionamentos da área do produto */
+#produto .grid-images {
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+
+.grid-images .carrousel {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#produto .thumb{
+    width: 125px;
+}
+
+#produto .thumb img{
+    width: 100%;
+    object-fit: contain;
+}
+
+#produto .main-image-container{
+    width: 100%;
+}
+
+#produto .main-image-container img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.product-description p {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Configurações e dimensionamentos da área de price */
+.price-container{
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(247 247 247 / 23%);
+    padding-top: inherit;
+    border: 1px solid rgb(0 0 0);
+    box-shadow: 50px 13px 3px 3px rgba(20, 20, 20, 0.04);
+}
+
+.price-container h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+
+.price-container input{
+    width: 50px;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    margin: 10px 0px;
+}
+
+/* Formação do container */
+.frete-container{
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin-top: 50px;
+    background-color: rgb(247 247 247 / 23%);
+    padding-top: inherit;
+    border: 1px solid rgb(0 0 0);
+    box-shadow: 50px 13px 3px 3px rgba(20, 20, 20, 0.04);
+}
+/* carrinho de compras */
+#carrinho .carrinho-grid,
+#checkout .checkout-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 16px;
+    padding-bottom: 100px;
+
+}
+
+/* Criação de uma lista */
+ul{
+    list-style: none;
+}
+
+/* Configurações e dimensionamento */
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 15px;
+    padding: 10px 20px;
+    column-gap: 16px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart-img-container{
+    width: 100px;
+    height: 180px;
+}
+
+.cart-img-container img{
+    width: 250%;
+    object-fit: contain;
+}
+
+.cart-item-info {
+    flex-basis: 180px;
+}
+
+
+.cart-item-info p{
+    padding-bottom: 5px;
+}
+
+.cart-item-info h2{
+    font-size: 20px;
+    color: #363232c4;
+}
+
+.cart-item-info input{
+    width: 50px;
+    padding:5px;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 206, 206);
+    margin: 10px 0px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+/* Dimensionamento do grid que divide a página */
+.grid-1{
+    border: 1px solid ;
+    padding: 16px;
+}
+
+.grid-2 {
+    padding: initial;
+}
+
+/* Dimensionamento da área total */
+.total-container{
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.total-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.total-info h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+     color: #363232c4;
+}
+
+
+/* Àrea do formulário */
+.campo_formulario {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+/* Todas configurações da área do formulario */
+.campo_formulario.row-1 {
+flex-direction: row;
+justify-content: space-between;
+column-gap: 16px;
+}
+
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+padding:0
+}
+
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+
+.campo_formulario label{
+font-size: 14px;
+padding-bottom: 5px;
+color: #363232c4;
+}
+
+.campo_formulario input, select{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000;
+}
+
+
+.font-initial{
+    font-family: "inter";
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    color: #363232c4;
+}
+
+.sobre-nos {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #747272c4;
+}
+.image-sobrenos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-sobrenos img {
+    margin-right: 120px;
+    width: 27%; 
+    height: auto;
+}
+.text-about {
+    max-width: 600px;
+}
+
+
+.text-about h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: #312e2eba;
+    margin-left: 70px;
+
+}
+.text-about h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 70px;
+    color: #604f4fba;
+}
+
+
+
+/* Dimensionamento e configurações da página de contate nos */
+#contact-page {
+    padding: 20px;
+}
+
+.contate-nos {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #747272c4;
+}
+
+/* Estilo para o formulário e informações de contato */
+.contact-form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-form img {
+    margin-right: 20px;
+    width: 300px; 
+    height: auto;
+}
+
+/* Configuração da área de perguntas */
+form h2{
+    padding-bottom:15px
+}
+
+.form-container {
+    max-width: 600px; 
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000;
+}
+
+.form-container button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9f9f9fba;
+    color: white;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: black;
+}
+
+/* Dimensionamento dos textos de contato da página */
+.contact-page h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: #312e2eba;
+}
+
+.contact-info h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #312e2eba;
+
+}
+.contact-info h3{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2;
+    margin-right: 70px;
+    color: #604f4fba;
+}
+
+/* Estilização da área de navegação */
+.Navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+  
+.Navbar ul li {
+    margin: 0 10px; 
+}
+
+.Navbar a {
+    font-family: "inter";
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.Navbar a:hover {
+    background-color: lightgray; 
+}
+  
+

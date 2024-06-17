@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RN - Calçados</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Icones do lado esquerdo superior da página -->
+    <header class="header-initial" id="header-top">
+      <div class="header-top-icons">
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-youtube"></i>
+      </div>
+      <!-- Banner da logo no centro superior da página -->
+      <div class="header-logo">
+        <img src="images/Rectangle 5.png" width="120" height="120" alt="Logo" />
+      </div>
+      <!-- Icones do lado direito superior da página -->
+      <div class="header-top-icons">
+        <a href="index.html" class="bi bi-search"></a>
+        <a href="carrinho.html" class="bi bi-cart"></a>
+      </div>
+    </header>
+    <hr class="header" />
+      <!-- Navegação da página -->
+      <nav class="Navbar">
+        <ul>
+          <li><a href="produtos.html">NIKE</a></li>
+          <li><a href="produtos.html">NEW BALANCE</a></li>
+          <li><a href="contatenos.html">FALE CONOSCO</a></li>
+          <li><a href="sobrenos.html">SOBRE NÓS</a></li>
+        </ul>
+      </nav>
+    <!-- Base do contato da página -->
+    <main id="contact-page">
+      <div class="contate-nos">
+        <h2>CONTATE-NOS</h2>
+      </div>
+      <div class="contact-form-container">
+        <div class="contact-info">
+          <h1>Fale Conosco</h1>
+          <h3>
+            Estamos aqui para ajudar! Se você tiver alguma dúvida, sugestão ou
+            precisar de assistência, entre em contato conosco através de um dos
+            canais abaixo. Nossa equipe está pronta para responder suas
+            perguntas e oferecer o suporte necessário.
+          </h3>
+          <h1>Formulário de Contato</h1>
+          <h3>
+            Se preferir, você também pode nos enviar uma mensagem diretamente
+            através do formulário de contato abaixo. Retornaremos o mais breve
+            possível
+          </h3>
+        </div>
+        <div class="form-container">
+          <form action="submit-form" method="post">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Rodapé da página -->
+    <section>
+      <hr class="header-end" />
+      <footer>
+        <div class="baseboard">
+          <!-- Informações de ajuda da página -->
+          <div class="info-help">
+            <h1>Ajuda</h1>
+            <h3><a href="contatenos.html">Fale Conosco</a></h3>
+            <h3><a href="sobrenos.html">Sobre Nós</a></h3>
+          </div>
+          <!-- Título de pagamento da página -->
+          <div class="title-pagamento">
+            <!-- Informações de pagamento; icons de pagamento -->
+            <h1>Formas de Pagamento</h1>
+            <div class="icons-pagamento">
+              <i class="bi bi-credit-card"></i>
+              <i class="bi bi-cash"></i>
+              <i class="bi bi-currency-bitcoin"></i>
+            </div>
+          </div>
+          <!--Título das redes sociais -->
+          <div class="title-redes-sociais">
+            <!-- Infos das redes sociais; icons das redes sociais -->
+            <h1>Redes Sociais</h1>
+            <div class="icons-redes-sociais">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
